@@ -28,21 +28,18 @@ const steps: Step[] = [
 
 export function HowItWorks() {
     return (
-        <section className="w-full bg-white py-24 px-10">
+        <section className="w-full bg-white px-10">
             <div className="max-w-6xl mx-auto text-center">
                 {/* Badge */}
-                <div className="inline-block mb-6 px-4 py-1 text-sm font-medium rounded-full bg-sky-600 text-white">
-                    Cómo Funciona?
-                </div>
 
                 {/* Title */}
-                <h2 className="text-4xl font-bold font-bold tracking-tight mb-2 text-stone-700">
+                <h2 className="text-4xl font-bold font-bold tracking-tight mb-6 text-stone-700">
                     4 Pasos Para Realizar <br className="hidden md:block" />
                     Tu Proyecto
                 </h2>
 
                 {/* Subtitle */}
-                <p className="text-lg text-zinc-600 max-w-2xl mx-auto mb-20">
+                <p className="text-lg text-zinc-600 max-w-2xl mx-auto mb-32">
                     De la idea a la ejecución, sin complejidad innecesaria
                 </p>
 
@@ -55,8 +52,8 @@ export function HowItWorks() {
                         {steps.map((step, index) => (
                             <div key={index} className="flex flex-col items-center text-center">
                                 {/* Icon circle */}
-                                <div className="relative z-10 w-20 h-20 flex items-center justify-center rounded-full border border-zinc-200 bg-white mb-6">
-                                    <p className="text-stone-700 font-bold text-3xl">{index+1}</p>
+                                <div className="relative z-10 w-20 h-20 flex items-center justify-center rounded-full border border-zinc-200 bg-zinc-700 mb-6">
+                                    <p className="text-teal-200 font-bold text-3xl">{index+1}</p>
                                 </div>
 
                                 {/* Title */}

@@ -51,15 +51,13 @@ const posts: Post[] = [
 
 export function BlogSection() {
   return (
-    <section className="w-full py-24 px-6 bg-white">
+    <section className="w-full px-6 bg-white">
       <div className="max-w-6xl mx-auto">
         
         {/* Header */}
-        <div className="mb-16">
-          <p className="text-sm uppercase tracking-widest text-zinc-500 mb-4">
-            Blog
-          </p>
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
+        <div className="flex flex-col text-center mb-16">
+
+          <h2 className="text-4xl text-center md:text-5xl font-bold text-stone-700 tracking-tight w-3/5 self-center">
             Ideas sobre tecnología, sistemas e inteligencia aplicada
           </h2>
         </div>
@@ -73,7 +71,7 @@ export function BlogSection() {
               {featuredPost.category} • {featuredPost.date}
             </span>
 
-            <h3 className="text-3xl font-semibold mt-4 mb-4 leading-tight">
+            <h3 className="text-3xl font-semibold mt-4 mb-4 text-stone-700 leading-tight">
               {featuredPost.title}
             </h3>
 
@@ -81,7 +79,7 @@ export function BlogSection() {
               {featuredPost.description}
             </p>
 
-            <button className="flex items-center gap-2 text-sm font-medium hover:opacity-70 transition">
+            <button className="flex items-center text-stone-700 gap-2 text-sm font-bold hover:opacity-70 transition">
               Leer artículo <ArrowUpRight className="w-4 h-4" />
             </button>
           </div>
@@ -89,10 +87,10 @@ export function BlogSection() {
 
         {/* Categories */}
         <div className="flex gap-6 border-b border-zinc-200 pb-4 mb-12 text-sm text-zinc-500">
-          <button className="text-black font-medium">Todos</button>
-          <button className="hover:text-black transition">Machine Learning</button>
-          <button className="hover:text-black transition">Engineering</button>
-          <button className="hover:text-black transition">UX & Strategy</button>
+          <button className="hover:text-stone-700 font-medium hover:cursor-pointer">Todos</button>
+          <button className="hover:text-stone-700 transition hover:cursor-pointer">Machine Learning</button>
+          <button className="hover:text-stone-700 transition hover:cursor-pointer">Engineering</button>
+          <button className="hover:text-stone-700 transition hover:cursor-pointer">UX & Strategy</button>
         </div>
 
         {/* Grid Posts */}
@@ -105,7 +103,7 @@ export function BlogSection() {
                 {post.category} • {post.date}
               </span>
 
-              <h4 className="text-xl font-semibold mt-3 mb-3 group-hover:opacity-80 transition">
+              <h4 className="text-xl font-semibold text-stone-700 mt-3 mb-3 group-hover:opacity-80 transition">
                 {post.title}
               </h4>
 

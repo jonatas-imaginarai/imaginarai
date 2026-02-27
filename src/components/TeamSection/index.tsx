@@ -23,15 +23,13 @@ Mi enfoque no es solo técnico — es estratégico. Diseño tecnología que gene
 
 export function TeamSection() {
   return (
-    <section className="w-full bg-white py-28 px-6">
+    <section className="w-full bg-white px-6 mb-36">
       <div className="max-w-5xl mx-auto">
         
         {/* Header */}
         <div className="text-center mb-20">
-          <p className="text-sm uppercase tracking-widest text-zinc-500 mb-4">
-            Team
-          </p>
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
+
+          <h2 className="text-4xl md:text-5xl text-stone-700 font-bold tracking-tight">
             La persona detrás de los sistemas
           </h2>
         </div>
@@ -50,7 +48,7 @@ export function TeamSection() {
 
           {/* Content */}
           <div>
-            <h3 className="text-3xl font-semibold mb-2">
+            <h3 className="text-3xl text-stone-700 font-semibold mb-2">
               {founder.name}
             </h3>
 

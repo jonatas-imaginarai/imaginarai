@@ -5,14 +5,10 @@ const descriptionTitleProdHigh = 'Automatización Inteligente Para Optimizar Age
 
 export function ServiceSection() {
     return (
-        <section className="w-full py-12">
-            <div className="max-w-5xl mx-auto px-6">
+        <section className="w-full">
+            <div className="flex justify-center flex-col max-w-5xl mx-auto px-6">
 
-                <h2 className="text-4xl font-bold text-center mb-16">
-                    Servicios
-                </h2>
-
-                <div className="p-10 rounded-3xl bg-gradient-to-r from-zinc-800 to-mist-800 text-white shadow-2xl">
+                <div className="p-10 rounded-3xl bg-gradient-to-r from-zinc-800 to-zinc-700 text-white shadow-2xl">
 
                     <h3 className="text-3xl font-bold mb-4 text-sky-400">
                         {TitleProductHigh}
@@ -30,7 +26,7 @@ export function ServiceSection() {
 
             </div>
 
-            <section className="w-full py-12 bg-white">
+            <section className="w-full pt-12 bg-white">
                 <div className="max-w-7xl mx-auto px-10">
 
                     <div className="grid md:grid-cols-3 gap-8">

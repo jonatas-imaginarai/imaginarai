@@ -46,7 +46,7 @@ export function ProductCardOne({
 
 				{/* Product Info */}
 				<div className="mb-4">
-					<CardTitle className="text-xl leading-tight mb-2">
+					<CardTitle className="text-xl leading-tight text-stone-700 mb-2">
 						{nameWork}
 					</CardTitle>
 

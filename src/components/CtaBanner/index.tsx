@@ -34,7 +34,7 @@ const colorStyles: Record<ColorVariant, {
 }
 
 export function CtaBanner({
-  colorCta = "bg-zinc-900",
+  colorCta,
   titleCta,
   descriptionCta,
   colorButtonCta

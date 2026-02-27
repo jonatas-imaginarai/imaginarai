@@ -8,6 +8,7 @@ import { BlogSection } from './components/BlogSection'
 import { TeamSection } from './components/TeamSection'
 import { ContactSection } from './components/ContactSection'
 import { Footer } from './components/Footer'
+import { Separator } from './components/Separator'
 
 
 function App() {
@@ -19,24 +20,29 @@ function App() {
         <NavBar />
         <HeroSection />
       </div>
+      <Separator nameSeparator='Servicios' />
       <ServiceSection />
+      <Separator nameSeparator='Portfolio' />
       <PortfolioSection />
       <CtaBanner
-        colorCta='bg-gradient-to-r from-zinc-800 to-mist-800'
-        titleCta='Haz Crecer Tu Negocio Con Soluciones Digitales a Medida'
-        descriptionCta='Implementamos Tecnología Para Que Puedas Enfocarte En Hacer Crecer Tu Negocio, Mientras Los Sistemas Trabajan Por Ti'
-        colorButtonCta='orange'
-      />
-      <HowItWorks />
-      <BlogSection />
-      <TeamSection />
-      <ContactSection />
-      <CtaBanner
-        colorCta='bg-gradient-to-r from-zinc-800 to-mist-800'
+        colorCta='bg-gradient-to-r from-zinc-800 to-zinc-700'
         titleCta='Haz Crecer Tu Negocio Con Soluciones Digitales a Medida'
         descriptionCta='Implementamos Tecnología Para Que Puedas Enfocarte En Hacer Crecer Tu Negocio, Mientras Los Sistemas Trabajan Por Ti'
         colorButtonCta='emerald'
       />
+      <Separator nameSeparator='Cómo Funciona?' />
+      <HowItWorks />
+      <Separator nameSeparator='Blog' />
+      <BlogSection />
+      <Separator nameSeparator='Team' />
+      <TeamSection />
+      <CtaBanner
+        colorCta='bg-gradient-to-r from-zinc-800 to-zinc-700'
+        titleCta='Haz Crecer Tu Negocio Con Soluciones Digitales a Medida'
+        descriptionCta='Implementamos Tecnología Para Que Puedas Enfocarte En Hacer Crecer Tu Negocio, Mientras Los Sistemas Trabajan Por Ti'
+        colorButtonCta='violet'
+      />
+      <ContactSection />
       <Footer />
 
 

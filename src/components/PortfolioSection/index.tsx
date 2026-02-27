@@ -1,14 +1,12 @@
 import { ProductCardOne } from "../product-card-01"
 
-const stylePortfolioSection = 'w-full flex flex-col px-10 mt-8'
-const gridPortfolio = 'grid md:grid-cols-3 gap-8 mt-12'
+const stylePortfolioSection = 'w-full flex flex-col px-10 mb-36'
+const gridPortfolio = 'grid md:grid-cols-3 gap-8'
 
 export function PortfolioSection() {
     return (
         <div className={stylePortfolioSection}>
-            <h2 className="text-4xl font-bold text-center">
-                    Portfolio
-            </h2>
+
             <div className={gridPortfolio}>
                 <ProductCardOne
                     nameWork="Rudolf"
