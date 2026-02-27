@@ -1,3 +1,6 @@
+import { ContactButtonsHeroSection } from "../ContactButtonsHeroSection"
+import icon1 from '../../assets/icons/i-30.png'
+
 const styleHeroSection = 'flex flex-col min-h-[80%] gap-6 items-center justify-center text-center mt-2 border w-[100%] rounded-sm px-10 py-12 bg-gradient-to-b from-white to-blue-50'
 const titleHero = 'font-bold text-3xl w-1/2'
 const subTitleHero = 'w-1/2 text-stone-700'
@@ -9,6 +12,7 @@ export function HeroSection () {
             <h2 className={titleHero}>Diseñamos Soluciones De Inteligencia Artificial a Medida Para Tu Negocio</h2>
             <h3 className={subTitleHero}>Sistemas Inteligentes Para Hacer Crecer Tu Empresa</h3>
             <button className={ctaHeroSection}>Agendar Reunión</button>
+            <ContactButtonsHeroSection />
 
         </div>
     )

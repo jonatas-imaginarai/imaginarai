@@ -133,7 +133,7 @@ export const Footer = () => {
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="seu@email.com"
+                  placeholder="tu@email.com"
                   required
                   className="flex-1 bg-transparent border-none outline-none px-3.5 py-2.5 text-sm text-neutral-800 placeholder-neutral-400"
                 />
@@ -165,7 +165,7 @@ export const Footer = () => {
         {/* Bottom bar */}
         <div className="border-t border-neutral-200 pt-7 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <p className="text-xs text-neutral-400">
-            © 2026 NeuralEdge. Todos os direitos reservados.
+            © 2026 imaginar.ai | Todos los derechos reservados.
           </p>
           <div className="flex items-center gap-6">
             <a href="#" className="text-xs text-neutral-400 hover:text-neutral-700 transition-colors duration-150">

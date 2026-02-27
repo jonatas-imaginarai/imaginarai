@@ -23,15 +23,15 @@ export function ContactSection() {
             {/* BENEFITS */}
             <ul className="space-y-4 text-zinc-700 mb-10">
               <li className="flex items-center gap-3">
-                <div className="w-5 h-5 rounded-full bg-zinc-200" />
+                <div className="w-3 h-3 rounded-full bg-teal-300" />
                 Asesoramiento personalizado
               </li>
               <li className="flex items-center gap-3">
-                <div className="w-5 h-5 rounded-full bg-zinc-200" />
+                <div className="w-3 h-3 rounded-full bg-teal-300" />
                 Respuesta rápida
               </li>
               <li className="flex items-center gap-3">
-                <div className="w-5 h-5 rounded-full bg-zinc-200" />
+                <div className="w-3 h-3 rounded-full bg-teal-300" />
                 Enfoque estratégico y técnico
               </li>
             </ul>
@@ -111,23 +111,23 @@ export function ContactSection() {
         {/* BOTTOM CONTACT CARDS */}
         <div className="grid md:grid-cols-3 gap-8">
 
-          <div className="border border-zinc-200 rounded-xl p-6">
+          <div className="border border-zinc-200 rounded-xl p-6 cursor-pointer hover:shadow-md">
             <Mail className="w-6 h-6 mb-4 text-stone-700" />
             <h4 className="font-semibold mb-2 text-stone-700">Email</h4>
             <p className="text-zinc-600 text-sm">
-              hola@tuempresa.com
+              jonatas@imaginarai.com
             </p>
           </div>
 
-          <div className="border border-zinc-200 rounded-xl p-6">
+          <div className="border border-zinc-200 rounded-xl p-6 cursor-pointer hover:shadow-md">
             <Phone className="w-6 h-6 mb-4 text-stone-700" />
-            <h4 className="font-semibold mb-2 text-stone-700">Teléfono</h4>
+            <h4 className="font-semibold mb-2 text-stone-700">WhatsApp</h4>
             <p className="text-zinc-600 text-sm">
-              +54 11 1234 5678
+              +54 11 2557 1622
             </p>
           </div>
 
-          <div className="border border-zinc-200 rounded-xl p-6">
+          <div className="border border-zinc-200 rounded-xl p-6 hover:shadow-md">
             <MapPin className="w-6 h-6 mb-4 text-stone-700" />
             <h4 className="font-semibold mb-2 text-stone-700">Ubicación</h4>
             <p className="text-zinc-600 text-sm">

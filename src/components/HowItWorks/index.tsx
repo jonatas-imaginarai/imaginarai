@@ -5,24 +5,24 @@ type Step = {
 
 const steps: Step[] = [
     {
-        title: "Diagnóstico y Estrategia",
+        title: "Diagnóstico",
         description:
-            "Analizamos tu operación actual e identificamos oportunidades de optimización, automatización y crecimiento",
+            "Conversamos sobre tus desafíos actuales y analizamos tu operación para detectar oportunidades reales de mejora y crecimiento",
     },
     {
-        title: "Diseño de la Solución",
+        title: "Propuesta de Proyecto",
         description:
-            "Diseñamos un sistema digital a medida, alineado con los objetivos y la realidad de tu empresa",
+            "Te entregamos una propuesta estratégica con alcance detallado, roadmap de implementación, plazos y presupuesto definidos",
     },
     {
         title: "Implementación",
         description:
-            "Desarrollamos e integramos la tecnología necesaria, asegurando eficiencia, claridad y resultados",
+            "Construimos la solución de forma estructurada, con seguimiento constante, control de calidad y entregas progresivas",
     },
     {
-        title: "Optimización",
+        title: "Soporte y Optimización",
         description:
-            "Medimos resultados, ajustamos procesos y acompañamos la evolución de tu negocio",
+            "Brindamos soporte continuo, realizamos mantenimiento técnico y optimizamos la solución para acompañar el crecimiento de tu negocio",
     },
 ]
 
@@ -40,7 +40,7 @@ export function HowItWorks() {
 
                 {/* Subtitle */}
                 <p className="text-lg text-zinc-600 max-w-2xl mx-auto mb-32">
-                    De la idea a la ejecución, sin complejidad innecesaria
+                    De La Idea a La Ejecución, Sin Complejidad Innecesaria
                 </p>
 
                 {/* Steps */}

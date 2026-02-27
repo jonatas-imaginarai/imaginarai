@@ -58,12 +58,12 @@ export function BlogSection() {
         <div className="flex flex-col text-center mb-16">
 
           <h2 className="text-4xl text-center md:text-5xl font-bold text-stone-700 tracking-tight w-3/5 self-center">
-            Ideas sobre tecnología, sistemas e inteligencia aplicada
+            Ideas Sobre Tecnología, Sistemas e Inteligencia Artificial Aplicada
           </h2>
         </div>
 
         {/* Featured Post */}
-        <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
+        <div className="grid md:grid-cols-2 gap-12 items-center mb-20 border px-6 py-8 rounded-lg hover:shadow-md">
           <div className="w-full h-80 bg-zinc-100 rounded-2xl" />
 
           <div>
@@ -79,7 +79,7 @@ export function BlogSection() {
               {featuredPost.description}
             </p>
 
-            <button className="flex items-center text-stone-700 gap-2 text-sm font-bold hover:opacity-70 transition">
+            <button className="flex items-center text-stone-700 gap-2 text-sm font-bold hover:opacity-70 transition cursor-pointer">
               Leer artículo <ArrowUpRight className="w-4 h-4" />
             </button>
           </div>
@@ -96,7 +96,7 @@ export function BlogSection() {
         {/* Grid Posts */}
         <div className="grid md:grid-cols-3 gap-10">
           {posts.map((post) => (
-            <div key={post.id} className="group cursor-pointer">
+            <div key={post.id} className="group cursor-pointer border p-4 pb-12 rounded-xl hover:shadow-md">
               <div className="w-full h-48 bg-zinc-100 rounded-xl mb-6 transition group-hover:bg-zinc-200" />
 
               <span className="text-xs text-zinc-500">

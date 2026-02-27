@@ -30,7 +30,7 @@ export function TeamSection() {
         <div className="text-center mb-20">
 
           <h2 className="text-4xl md:text-5xl text-stone-700 font-bold tracking-tight">
-            La persona detrás de los sistemas
+            Ingeniería Con Visión de Negócio
           </h2>
         </div>
 

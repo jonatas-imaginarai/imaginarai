@@ -50,27 +50,25 @@ export function ProductCardOne({
 						{nameWork}
 					</CardTitle>
 
-					<CardDescription className="text-sm text-stone-700 mb-2">
-						{descriptionWork1}
-					</CardDescription>
+					<ul className="space-y-4 text-zinc-700 mb-10 text-sm">
+						<li className="flex items-center gap-3">
+							<div className="w-[5%] h-3 rounded-full bg-teal-300" />
+							<p className="w-[95%]">{descriptionWork1}</p>
+						</li>
+						<li className="flex items-center gap-3">
+							<div className="w-[5%] h-3 rounded-full bg-teal-300" />
+							<p className="w-[95%]">{descriptionWork2}</p>
+						</li>
+						<li className="flex items-center gap-3">
+							<div className="w-[5%] h-3 rounded-full bg-teal-300" />
+							<p className="w-[95%]">{descriptionWork3}</p>
+						</li>
+						<li className="flex items-center gap-3">
+							<div className="w-[5%] h-3 rounded-full bg-teal-300" />
+							<p className="w-[95%]">{descriptionWork4}</p>
+						</li>
+					</ul>
 
-					{descriptionWork2 && (
-						<CardDescription className="text-sm text-stone-700 mb-2">
-							{descriptionWork2}
-						</CardDescription>
-					)}
-
-					{descriptionWork3 && (
-						<CardDescription className="text-sm text-stone-700 mb-2">
-							{descriptionWork3}
-						</CardDescription>
-					)}
-
-					{descriptionWork4 && (
-						<CardDescription className="text-sm text-stone-700">
-							{descriptionWork4}
-						</CardDescription>
-					)}
 				</div>
 
 				{/* Bottom Section */}
@@ -84,13 +82,13 @@ export function ProductCardOne({
 						<Button className="bg-zinc-700 hover:cursor-pointer active:scale-[95%]">
 							Preview Link
 						</Button>
-						): (
+					) : (
 						<Button
 							disabled
 							className="bg-zinc-700 hover:cursor-pointer active:scale-[95%] disabled:opacity-50 disabled:cursor-not-allowed disabled:bg-zinc-400">
 							In Progress
 						</Button>
-						) 
+					)
 					}
 				</div>
 

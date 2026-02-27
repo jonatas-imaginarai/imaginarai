@@ -10,7 +10,6 @@ import { ContactSection } from './components/ContactSection'
 import { Footer } from './components/Footer'
 import { Separator } from './components/Separator'
 
-
 function App() {
 
 
@@ -26,7 +25,7 @@ function App() {
       <PortfolioSection />
       <CtaBanner
         colorCta='bg-gradient-to-r from-zinc-800 to-zinc-700'
-        titleCta='Haz Crecer Tu Negocio Con Soluciones Digitales a Medida'
+        titleCta='Haz Crecer Tu Negocio Con Soluciones de IA a Medida'
         descriptionCta='Implementamos Tecnología Para Que Puedas Enfocarte En Hacer Crecer Tu Negocio, Mientras Los Sistemas Trabajan Por Ti'
         colorButtonCta='emerald'
       />
@@ -44,8 +43,7 @@ function App() {
       />
       <ContactSection />
       <Footer />
-
-
+      
     </>
   )
 }
