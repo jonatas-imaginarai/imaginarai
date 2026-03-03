@@ -82,7 +82,7 @@ const Team = () => {
                     <div className="flex items-center justify-center gap-2">
                       <a
                         href={value.socials.website}
-                        className="p-2 hover:bg-teal-100 rounded-full"
+                        className="p-2 hover:bg-cyan-100 rounded-full"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -91,7 +91,7 @@ const Team = () => {
                       </a>
                       <a
                         href={value.socials.linkedin}
-                        className="p-2 hover:bg-teal-100 rounded-full"
+                        className="p-2 hover:bg-cyan-100 rounded-full"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -99,7 +99,7 @@ const Team = () => {
                       </a>
                       <a
                         href={value.socials.linkedin}
-                        className="p-2 hover:bg-teal-100 rounded-full"
+                        className="p-2 hover:bg-cyan-100 rounded-full"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -107,7 +107,7 @@ const Team = () => {
                       </a>
                       <a
                         href={value.socials.linkedin}
-                        className="p-2 hover:bg-teal-100 rounded-full"
+                        className="p-2 hover:bg-cyan-100 rounded-full"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
