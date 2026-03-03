@@ -23,6 +23,7 @@
     "@commercn": "https://commercn.com/r/{name}.json",
     "@bundui": {
       "url": "https://bundui.io/api/registry/{name}.json"
-    }
+    },
+    "@shadcn-space": "https://shadcnspace.com/r/{name}.json"
   }
 }

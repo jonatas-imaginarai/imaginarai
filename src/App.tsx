@@ -9,6 +9,7 @@ import { TeamSection } from './components/TeamSection'
 import { ContactSection } from './components/ContactSection'
 import { Footer } from './components/Footer'
 import { Separator } from './components/Separator'
+import { TeamSectionV2 } from './components/TeamSectionV2'
 
 function App() {
 
@@ -34,7 +35,7 @@ function App() {
       <Separator nameSeparator='Blog' />
       <BlogSection />
       <Separator nameSeparator='Team' />
-      <TeamSection />
+      <TeamSectionV2 />
       <CtaBanner
         colorCta='bg-gradient-to-r from-zinc-800 to-zinc-700'
         titleCta='Haz Crecer Tu Negocio Con Soluciones Digitales a Medida'

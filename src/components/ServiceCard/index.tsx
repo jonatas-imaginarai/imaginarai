@@ -1,4 +1,4 @@
-import rightArrowIcon from '../../assets/icons/right-arrow-50.png'
+
 
 type ServiceCardProps = {
     titleServiceCard: string,

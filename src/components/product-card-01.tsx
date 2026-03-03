@@ -52,19 +52,19 @@ export function ProductCardOne({
 
 					<ul className="space-y-4 text-zinc-700 mb-10 text-sm">
 						<li className="flex items-center gap-3">
-							<div className="w-[5%] h-3 rounded-full bg-teal-300" />
+							<div className="w-[3%] h-2 rounded-full bg-teal-300"/>
 							<p className="w-[95%]">{descriptionWork1}</p>
 						</li>
 						<li className="flex items-center gap-3">
-							<div className="w-[5%] h-3 rounded-full bg-teal-300" />
+							<div className="w-[3%] h-2 rounded-full bg-teal-300" />
 							<p className="w-[95%]">{descriptionWork2}</p>
 						</li>
 						<li className="flex items-center gap-3">
-							<div className="w-[5%] h-3 rounded-full bg-teal-300" />
+							<div className="w-[3%] h-2 rounded-full bg-teal-300" />
 							<p className="w-[95%]">{descriptionWork3}</p>
 						</li>
 						<li className="flex items-center gap-3">
-							<div className="w-[5%] h-3 rounded-full bg-teal-300" />
+							<div className="w-[3%] h-2 rounded-full bg-teal-300" />
 							<p className="w-[95%]">{descriptionWork4}</p>
 						</li>
 					</ul>
