@@ -7,7 +7,7 @@ type ServiceCardProps = {
 
 export function ServiceCard({ titleServiceCard,descriptionServiceCard }: ServiceCardProps) {
     return (
-        <div className="p-8 rounded-2xl border border-slate-200 hover:shadow-xl duration-200 ease-in-out hover:bg-sky-50 hover:border-1 hover:border-sky-800 relative">
+        <div className="p-8 rounded-2xl border border-slate-200 hover:shadow-xl duration-200 ease-in-out bg-sky-200 hover:bg-sky-100 hover:border-1 hover:border-sky-800 relative">
             <h3 className="text-xl font-semibold text-stone-700 mb-4">{titleServiceCard}</h3>
             <p className="text-slate-600">
                 {descriptionServiceCard}

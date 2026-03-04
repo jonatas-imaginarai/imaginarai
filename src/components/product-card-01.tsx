@@ -29,7 +29,7 @@ export function ProductCardOne({
 	finishedWork
 }: workDataProps) {
 	return (
-		<Card className="w-full max-w-[320px] h-full hover:shadow-xl transition">
+		<Card className="w-full max-w-[420px] h-full hover:shadow-xl transition">
 
 			<CardContent className="flex flex-col h-full">
 
@@ -46,7 +46,7 @@ export function ProductCardOne({
 
 				{/* Product Info */}
 				<div className="mb-4">
-					<CardTitle className="text-xl leading-tight text-stone-700 mb-2">
+					<CardTitle className="text-xl leading-tight text-stone-700 mb-6">
 						{nameWork}
 					</CardTitle>
 

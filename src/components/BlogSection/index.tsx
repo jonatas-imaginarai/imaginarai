@@ -58,7 +58,7 @@ export function BlogSection() {
         <div className="flex flex-col text-center mb-16">
 
           <h2 className="text-4xl text-center md:text-5xl font-bold text-stone-700 tracking-tight w-3/5 self-center">
-            Ideas Sobre Tecnología, Sistemas e Inteligencia Artificial Aplicada
+            Ideas Sobre Tecnología, Software e Inteligencia Artificial Aplicada
           </h2>
         </div>
 

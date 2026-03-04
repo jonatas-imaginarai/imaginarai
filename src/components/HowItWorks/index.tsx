@@ -39,7 +39,7 @@ export function HowItWorks() {
                 </h2>
 
                 {/* Subtitle */}
-                <p className="text-lg text-zinc-600 max-w-2xl mx-auto mb-32">
+                <p className="text-lg text-zinc-600 max-w-2xl mx-auto mb-32 font-semibold">
                     De La Idea a La Ejecución, Sin Complejidad Innecesaria
                 </p>
 
