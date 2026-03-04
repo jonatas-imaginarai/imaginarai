@@ -24,6 +24,8 @@
     "@bundui": {
       "url": "https://bundui.io/api/registry/{name}.json"
     },
-    "@shadcn-space": "https://shadcnspace.com/r/{name}.json"
+    "@shadcn-space": "https://shadcnspace.com/r/{name}.json",
+    "@animate-ui": "https://animate-ui.com/r/{name}.json",
+    "@magicui": "https://magicui.design/r/{name}"
   }
 }
