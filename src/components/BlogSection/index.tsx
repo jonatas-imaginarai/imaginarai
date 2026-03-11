@@ -1,4 +1,5 @@
 import { ArrowUpRight } from "lucide-react"
+import photoFeaturedPost from '../../assets/img/sketchAndPlanning.webp'
 
 type Post = {
   id: number
@@ -11,16 +12,16 @@ type Post = {
 
 const featuredPost: Post = {
   id: 1,
-  category: "Arquitectura de Sistemas",
-  title: "Cómo estructurar sistemas inteligentes para empresas en crecimiento",
+  category: "Ensayos",
+  title: "Mi Camino Hacia El Desarrollo Web y La Inteligencia Artificial",
   description:
-    "Una guía práctica para diseñar infraestructura digital escalable, optimizar procesos y preparar tu empresa para crecer con tecnología.",
-  date: "Octubre 24, 2023",
-  author: "Jonatas Freire",
+    "Una historia que empieza en la infancia y termina llevándome desde la ingeniería y el cine hasta el desarrollo de software y la inteligencia artificial",
+  date: "12 de Marzo, 2026",
+  author: "Jonatas Freire Giordano",
 }
 
 const posts: Post[] = [
-  {
+  /* {
     id: 2,
     category: "Machine Learning",
     title: "Aplicando IA en procesos reales de negocio",
@@ -46,7 +47,7 @@ const posts: Post[] = [
       "Diseñando sistemas claros que acompañan el crecimiento empresarial.",
     date: "Oct 05",
     author: "Jonatas Freire",
-  },
+  }, */
 ]
 
 export function BlogSection() {
@@ -64,14 +65,15 @@ export function BlogSection() {
 
         {/* Featured Post */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20 border px-6 py-8 rounded-lg hover:shadow-md">
-          <div className="w-full h-80 bg-zinc-100 rounded-2xl" />
-
+          <div className="relative w-full h-80 bg-zinc-100 rounded-2xl cursor-pointer">
+            <img src={photoFeaturedPost} alt="UI Sketch Plan" className="relative object-cover rounded-md w-full h-full" />
+          </div>
           <div>
             <span className="text-sm text-zinc-500">
               {featuredPost.category} • {featuredPost.date}
             </span>
 
-            <h3 className="text-3xl font-semibold mt-4 mb-4 text-stone-700 leading-tight">
+            <h3 className="text-3xl font-semibold mt-4 mb-4 text-stone-700 leading-tight cursor-pointer">
               {featuredPost.title}
             </h3>
 
@@ -88,9 +90,10 @@ export function BlogSection() {
         {/* Categories */}
         <div className="flex gap-6 border-b border-zinc-200 pb-4 mb-12 text-sm text-zinc-500">
           <button className="hover:text-stone-700 font-medium hover:cursor-pointer">Todos</button>
-          <button className="hover:text-stone-700 transition hover:cursor-pointer">Machine Learning</button>
-          <button className="hover:text-stone-700 transition hover:cursor-pointer">Engineering</button>
-          <button className="hover:text-stone-700 transition hover:cursor-pointer">UX & Strategy</button>
+          <button className="hover:text-stone-700 transition hover:cursor-pointer">Desarrollo de Software</button>
+          <button className="hover:text-stone-700 transition hover:cursor-pointer">IA Aplicada</button>
+          <button className="hover:text-stone-700 transition hover:cursor-pointer">Cases</button>
+          <button className="hover:text-stone-700 transition hover:cursor-pointer">Ensayos</button>
         </div>
 
         {/* Grid Posts */}

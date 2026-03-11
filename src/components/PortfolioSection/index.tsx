@@ -1,7 +1,7 @@
 import { ProductCardOne } from "../product-card-01"
 
 const stylePortfolioSection = 'w-full flex flex-col px-10 mb-36'
-const gridPortfolio = 'grid md:grid-cols-3 gap-8'
+const gridPortfolio = 'grid md:grid-cols-3 lg:grid-cols-3 gap-8 justify-items-center'
 
 export function PortfolioSection() {
     return (
@@ -18,8 +18,8 @@ export function PortfolioSection() {
                     imageWork='https://images.unsplash.com/photo-1649937408746-4d2f603f91c8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1226'
                     finishedWork = {false}
                 />
-                <ProductCardOne
-                    nameWork="Dois Mundos"
+                {/* <ProductCardOne
+                    nameWork="Dois Mundos Energia"
                     descriptionWork1='Desarrollo de Sistema Completo de Facturación Automatizada'
                     descriptionWork2='Integración con Sistemas Internos y Bases de Datos'
                     descriptionWork3='Extracción Automática de Información Desde Documentos'
@@ -27,7 +27,7 @@ export function PortfolioSection() {
                     highWork="AI Automation"
                     imageWork='https://images.unsplash.com/photo-1649937408746-4d2f603f91c8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1226'
                     finishedWork = {false}
-                />
+                /> */}
                 <ProductCardOne
                     nameWork="La Fiesta de las Flores"
                     descriptionWork1 = 'E-Commerce de Roupas'
