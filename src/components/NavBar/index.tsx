@@ -1,5 +1,7 @@
+import { Link } from 'react-router'
 
-const navBarStyle = 'flex justify-between items-center py-4 relative'
+
+const navBarStyle = 'flex justify-between items-center py-4 relative text-sm'
 const logoStyle = 'font-bold text-xl'
 const aiLogo = 'text-sky-400'
 const linksBar = 'flex gap-4 absolute left-1/2 -translate-x-1/2'
@@ -11,17 +13,22 @@ export function NavBar() {
         <>
 
             <div className={navBarStyle}>
-                <h1 className={logoStyle}><a href="">imaginar<span className={aiLogo}>.ai</span></a></h1>
+                <Link to='/'><h1 className={logoStyle}><a href="">imaginar<span className={aiLogo}>.ai</span></a></h1></Link>
                 <div className={linksBar}>
-                    <a href="" className={aLink}>Servicios</a>
-                    <a href="" className={aLink}>Portfolio</a>
-                    <a href="" className={aLink}>Blog</a>
-                    <a href="" className={aLink}>About Me</a>
-                    <a href="" className={aLink}>Contacto</a>
+                    <a href="#servicios" className={aLink}>Servicios</a>
+                    <a href="#portfolio" className={aLink}>Portfolio</a>
+                    <a href="#blog" className={aLink}>Blog</a>
+                    <a href="#aboutme" className={aLink}>About Me</a>
+                    <a href="#contacto" className={aLink}>Contacto</a>
                 </div>
-                <button className={ctaButtonNavBar}>Contáctame</button>
+                <a href="https://wa.me/5491125571622?text=Hola%20Quiero%20Agendar%20Una%20Reunión%20Para%20Buscar%20Soluciones%20Para%20Mi%20Empresa"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={ctaButtonNavBar}>
+                        Contáctame
+                </a>
             </div>
-            
+
         </>
     )
 }

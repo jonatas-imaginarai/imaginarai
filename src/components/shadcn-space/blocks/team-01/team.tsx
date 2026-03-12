@@ -35,7 +35,7 @@ const teamData: team = [
 
 const Team = () => {
   return (
-    <section>
+    <section id='aboutme' className="scroll-mt-12">
       <div className="mb-32">
         <div className="mx-auto max-w-7xl px-10 sm:px-6 lg:px-16 flex flex-col items-center justify-center gap-8 md:gap-16">
           <motion.div

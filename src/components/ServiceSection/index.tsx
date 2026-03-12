@@ -5,7 +5,7 @@ const descriptionTitleProdHigh = 'Automatización Inteligente Para Optimizar Age
 
 export function ServiceSection() {
     return (
-        <section className="w-full">
+        <section id='servicios' className="w-full scroll-mt-12">
             <div className="flex justify-center flex-col max-w-5xl mx-auto px-6">
 
                 <div className="p-10 rounded-3xl bg-gradient-to-r from-zinc-800 to-zinc-700 text-white shadow-2xl">
@@ -18,9 +18,9 @@ export function ServiceSection() {
                         {descriptionTitleProdHigh}
                     </p>
 
-                    <button className="duration-200 ease-in-out bg-white text-stone-700 px-6 py-2 rounded-xl font-semibold hover:bg-sky-100 cursor-pointer active:scale-[95%] active:bg-sky-50 hover:text-sky-400 border-1 hover:border-sky-600">
+                    <a href='https://wa.me/5491125571622?text=Hola%20Quiero%20Agendar%20Una%20Reunión%20Para%20Buscar%20Soluciones%20Para%20Mi%20Empresa' target='_blank' className="duration-200 ease-in-out bg-white text-stone-700 px-6 py-2 rounded-xl font-semibold hover:bg-sky-100 cursor-pointer active:scale-[95%] active:bg-sky-50 hover:text-sky-400 border-1 hover:border-sky-600">
                         Ver Producto
-                    </button>
+                    </a>
 
                 </div>
 

@@ -52,7 +52,7 @@ const posts: Post[] = [
 
 export function BlogSection() {
   return (
-    <section className="w-full px-6 bg-white">
+    <section id='blog' className="w-full px-6 bg-white scroll-mt-12">
       <div className="max-w-6xl mx-auto">
         
         {/* Header */}

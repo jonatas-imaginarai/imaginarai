@@ -9,7 +9,7 @@ export function ContactSection() {
         <div className="grid md:grid-cols-2 gap-20 items-start mb-24">
 
           {/* LEFT SIDE */}
-          <div>
+          <div id='contacto' className="scroll-mt-12">
             <h2 className="text-4xl text-stone-700 md:text-5xl font-bold tracking-tight mb-6">
               Hablemos sobre el crecimiento de tu empresa
             </h2>

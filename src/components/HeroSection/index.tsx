@@ -25,7 +25,12 @@ export function HeroSection() {
             />
             <h2 className={titleHero}>Soluciones de <AuroraText>Inteligencia Artificial</AuroraText> a Medida Para Tu Negocio</h2>
             {/* <h3 className={subTitleHero}>Sistemas Inteligentes Para Hacer Crecer Tu Empresa</h3> */}
-            <button className={ctaHeroSection}>Agendar Reunión</button>
+            <a href="https://wa.me/5491125571622?text=Hola%20Quiero%20Agendar%20Una%20Reunión%20Para%20Buscar%20Soluciones%20Para%20Mi%20Empresa"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={ctaHeroSection}>
+                    Agendar Reunión
+            </a>
             <ContactButtonsHeroSection />
 
         </div>

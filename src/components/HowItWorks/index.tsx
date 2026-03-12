@@ -28,7 +28,7 @@ const steps: Step[] = [
 
 export function HowItWorks() {
     return (
-        <section className="w-full bg-white px-10">
+        <section id='comofunciona' className="w-full bg-white px-10">
             <div className="max-w-6xl mx-auto text-center">
                 {/* Badge */}
 

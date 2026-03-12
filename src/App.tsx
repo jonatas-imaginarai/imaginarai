@@ -1,52 +1,18 @@
-import { NavBar } from '../src/components/NavBar'
-import { HeroSection } from './components/HeroSection'
-import { ServiceSection } from './components/ServiceSection'
-import { PortfolioSection } from './components/PortfolioSection'
-import { CtaBanner } from './components/CtaBanner'
-import { HowItWorks } from './components/HowItWorks'
-import { BlogSection } from './components/BlogSection'
-import { ContactSection } from './components/ContactSection'
-import { Footer } from './components/Footer'
-import { Separator } from './components/Separator'
-import { TeamSectionV2 } from './components/TeamSectionV2'
-
-
+import { BrowserRouter, Routes, Route } from 'react-router'
+import { Home } from './pages/Home'
+import { BlogPost } from './pages/BlogPost'
+import { NotFound } from './pages/NotFound'
 
 function App() {
 
-
   return (
-    <>
-      <div className='h-screen w-screen px-10 flex flex-col'>
-        <NavBar />
-        <HeroSection />
-      </div>
-      <Separator nameSeparator='Servicios' />
-      <ServiceSection />
-      <Separator nameSeparator='Portfolio' />
-      <PortfolioSection />
-      <CtaBanner
-        colorCta='bg-gradient-to-r from-zinc-800 to-zinc-700'
-        titleCta='Haz Crecer Tu Negocio Con Soluciones de IA a Medida'
-        descriptionCta='Implementamos Tecnología Para Que Puedas Enfocarte En Hacer Crecer Tu Negocio, Mientras Los Sistemas Trabajan Por Ti'
-        colorButtonCta='emerald'
-      />
-      <Separator nameSeparator='Cómo Funciona?' />
-      <HowItWorks />
-      <Separator nameSeparator='Blog' />
-      <BlogSection />
-      <Separator nameSeparator='Team' />
-      <TeamSectionV2 />
-      <CtaBanner
-        colorCta='bg-gradient-to-r from-zinc-800 to-zinc-700'
-        titleCta='Haz Crecer Tu Negocio Con Soluciones Digitales a Medida'
-        descriptionCta='Implementamos Tecnología Para Que Puedas Enfocarte En Hacer Crecer Tu Negocio, Mientras Los Sistemas Trabajan Por Ti'
-        colorButtonCta='violet'
-      />
-      <ContactSection />
-      <Footer />
-
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/blog/:postId' element={<BlogPost />} />
+        <Route path='*' element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
