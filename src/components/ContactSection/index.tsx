@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Instagram, Linkedin, Github } from "lucide-react"
+import { Mail, Phone, MapPin, Instagram, Linkedin } from "lucide-react"
 import WhatsappIcon from '../../assets/icons/icons8-whatsapp-100.png'
 
 export function ContactSection() {
