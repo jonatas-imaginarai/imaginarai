@@ -3,7 +3,6 @@ import LinkedinIcon from '../../assets/icons/icons8-linkedin.svg'
 import EmailIcon from '../../assets/icons/icons8-email-50.webp'
 import InstagramIcon from '../../assets/icons/icons8-instagram-50.webp'
 import WhatsappIcon from '../../assets/icons/icons8-whatsapp-100.png'
-import { Link } from 'react-router'
 
 export const Footer = () => {
   const [email, setEmail] = useState("");
