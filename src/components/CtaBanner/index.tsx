@@ -4,7 +4,8 @@ type CtaProps = {
   colorCta?: string
   titleCta: string
   descriptionCta: string
-  colorButtonCta: ColorVariant
+  colorButtonCta: ColorVariant,
+  hrefCtaBanner: string
 }
 
 const colorStyles: Record<ColorVariant, {
@@ -37,7 +38,8 @@ export function CtaBanner({
   colorCta,
   titleCta,
   descriptionCta,
-  colorButtonCta
+  colorButtonCta,
+  hrefCtaBanner
 }: CtaProps) {
   const styles = colorStyles[colorButtonCta]
 
@@ -54,7 +56,7 @@ export function CtaBanner({
             {descriptionCta}
           </p>
 
-          <button
+          <a
             className={`
               duration-200 ease-in-out
               px-6 py-2 rounded-xl font-semibold
@@ -63,9 +65,12 @@ export function CtaBanner({
               active:scale-[0.95]
               ${styles.button}
             `}
+            href={hrefCtaBanner}
+            target='_blank'
+            rel="noopener noreferrer"
           >
             Agendar Consultoria
-          </button>
+          </a>
 
         </div>
       </div>

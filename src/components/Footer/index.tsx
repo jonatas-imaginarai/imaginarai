@@ -3,7 +3,7 @@ import LinkedinIcon from '../../assets/icons/icons8-linkedin.svg'
 import EmailIcon from '../../assets/icons/icons8-email-50.webp'
 import InstagramIcon from '../../assets/icons/icons8-instagram-50.webp'
 import WhatsappIcon from '../../assets/icons/icons8-whatsapp-100.png'
-import { Linkedin } from "lucide-react";
+import { Link } from 'react-router'
 
 export const Footer = () => {
   const [email, setEmail] = useState("");
@@ -55,30 +55,36 @@ export const Footer = () => {
             {/* Social links */}
             <div className="flex items-center gap-2">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/jonatas-freire-giordano-3424bb3b2/"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="LinkedIn"
-                className="w-8 h-8 rounded-lg bg-neutral-200 flex items-center justify-center text-neutral-500 hover:bg-cyan-200 hover:text-white transition-all duration-200"
+                className="w-8 h-8 rounded-lg bg-neutral-200 flex items-center justify-center text-neutral-500 hover:bg-cyan-200 hover:text-white transition-all duration-200 active:bg-cyan-50 active:scale-[95%]"
               >
                 <img src={LinkedinIcon} alt="Linkedin Jonatas Freire Giordano" className="object-fill w-6 h-6"/>
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/jonatas.imaginar.ai/"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Instagram"
-                className="w-8 h-8 rounded-lg bg-neutral-200 flex items-center justify-center text-neutral-500 hover:bg-cyan-200 hover:text-white transition-all duration-200"
+                className="w-8 h-8 rounded-lg bg-neutral-200 flex items-center justify-center text-neutral-500 hover:bg-cyan-200 hover:text-white transition-all duration-200 active:bg-cyan-50 active:scale-[95%]"
               >
                 <img src={InstagramIcon} alt="Instagram Jonatas Freire Giordano" className="object-fill w-6 h-6"/>
               </a>
               <a
-                href="#"
+                href="mailto:jonatas@imaginarai.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Email"
-                className="w-8 h-8 rounded-lg bg-neutral-200 flex items-center justify-center text-neutral-500 hover:bg-cyan-200 hover:text-white transition-all duration-200"
+                className="w-8 h-8 rounded-lg bg-neutral-200 flex items-center justify-center text-neutral-500 hover:bg-cyan-200 hover:text-white transition-all duration-200 active:bg-cyan-50 active:scale-[95%]"
               >
                 <img src={EmailIcon} alt="Email Jonatas Freire Giordano" className="object-fill w-6 h-6"/>
               </a>
               <a
-                href="#"
+                href='https://wa.me/5491125571622?text=Hola%20Quiero%20Agendar%20Una%20Reunión%20Para%20Buscar%20Soluciones%20Para%20Mi%20Empresa'
                 aria-label="Whatsapp"
-                className="w-8 h-8 rounded-lg bg-neutral-200 flex items-center justify-center text-neutral-500 hover:bg-cyan-200 hover:text-white transition-all duration-200"
+                className="w-8 h-8 rounded-lg bg-neutral-200 flex items-center justify-center text-neutral-500 hover:bg-cyan-200 hover:text-white transition-all duration-200 active:bg-cyan-50 active:scale-[95%]"
               >
                 <img src={WhatsappIcon} alt="Whatsapp Jonatas Freire Giordano" className="object-fill w-6 h-6"/>
               </a>
@@ -94,7 +100,7 @@ export const Footer = () => {
               {services.map((item) => (
                 <li key={item}>
                   <a
-                    href="#"
+                    href="#servicios"
                     className="text-sm text-mist-300 hover:text-cyan-400 transition-colors duration-150"
                   >
                     {item}
@@ -169,7 +175,7 @@ export const Footer = () => {
         {/* Bottom bar */}
         <div className="border-t border-neutral-200 pt-7 flex flex-col sm:flex-row items-center sm:items-center justify-center gap-4">
           <p className="text-xs text-neutral-400">
-            © Powered By <a href='' className='hover:text-cyan-400 transition-colors duration-150' >imaginar.ai</a> 
+            © Powered By <Link to='indexPage' className='hover:text-cyan-400 transition-colors duration-150' >imaginar.ai</Link> 
           </p>
         </div>
 

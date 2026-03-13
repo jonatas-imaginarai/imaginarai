@@ -26,6 +26,7 @@ export const Home = () => {
                 titleCta='Haz Crecer Tu Negocio Con Soluciones de IA a Medida'
                 descriptionCta='Implementamos Tecnología Para Que Puedas Enfocarte En Hacer Crecer Tu Negocio, Mientras Los Sistemas Trabajan Por Ti'
                 colorButtonCta='emerald'
+                hrefCtaBanner='https://wa.me/5491125571622?text=Hola%20Quiero%20Agendar%20Una%20Reunión%20Para%20Buscar%20Soluciones%20Para%20Mi%20Empresa'
             />
             <Separator nameSeparator='Cómo Funciona?' />
             <HowItWorks />
@@ -38,6 +39,7 @@ export const Home = () => {
                 titleCta='Haz Crecer Tu Negocio Con Soluciones Digitales a Medida'
                 descriptionCta='Implementamos Tecnología Para Que Puedas Enfocarte En Hacer Crecer Tu Negocio, Mientras Los Sistemas Trabajan Por Ti'
                 colorButtonCta='violet'
+                hrefCtaBanner='https://wa.me/5491125571622?text=Hola%20Quiero%20Agendar%20Una%20Reunión%20Para%20Buscar%20Soluciones%20Para%20Mi%20Empresa'
             />
             <ContactSection />
             <Footer />

@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin, Instagram, Linkedin, Github } from "lucide-react"
+import WhatsappIcon from '../../assets/icons/icons8-whatsapp-100.png'
 
 export function ContactSection() {
   return (
@@ -39,7 +40,7 @@ export function ContactSection() {
             {/* SOCIAL LINKS */}
             <div className="flex gap-4">
               <a
-                href="https://instagram.com/seuusuario"
+                href="https://www.instagram.com/jonatas.imaginar.ai/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-11 h-11 flex items-center justify-center rounded-xl border border-zinc-200 hover:bg-zinc-700 hover:text-white transition"
@@ -48,7 +49,7 @@ export function ContactSection() {
               </a>
 
               <a
-                href="https://linkedin.com/in/seuusuario"
+                href="https://www.linkedin.com/in/jonatas-freire-giordano-3424bb3b2/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-11 h-11 flex items-center justify-center rounded-xl border border-zinc-200 hover:bg-zinc-700 hover:text-white transition"
@@ -57,19 +58,18 @@ export function ContactSection() {
               </a>
 
               <a
-                href="mailto:seuemail@dominio.com"
+                href="mailto:jonatas@imaginarai.com"
                 className="w-11 h-11 flex items-center justify-center rounded-xl border border-zinc-200 hover:bg-zinc-700 hover:text-white transition"
               >
                 <Mail className="w-5 h-5" />
               </a>
 
               <a
-                href="https://github.com/seuusuario"
+                href="https://wa.me/5491125571622?text=Hola%20Quiero%20Agendar%20Una%20Reunión%20Para%20Buscar%20Soluciones%20Para%20Mi%20Empresa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-11 h-11 flex items-center justify-center rounded-xl border border-zinc-200 hover:bg-zinc-700 hover:text-white transition"
-              >
-                <Github className="w-5 h-5" />
+              ><img src={WhatsappIcon} alt="Whatsapp Jonatas Freire Giordano" className='size-7' />
               </a>
             </div>
           </div>
@@ -111,23 +111,23 @@ export function ContactSection() {
         {/* BOTTOM CONTACT CARDS */}
         <div className="grid md:grid-cols-3 gap-8">
 
-          <div className="border border-zinc-200 rounded-xl p-6 cursor-pointer hover:shadow-md">
+          <a href='mailto:jonatas@imaginarai.com' target='_blank' rel="noopener noreferrer" className="border border-zinc-200 rounded-xl p-6 cursor-pointer hover:shadow-md hover:bg-teal-100 active:bg-teal-50 active:scale-[98%]">
             <Mail className="w-6 h-6 mb-4 text-stone-700" />
             <h4 className="font-semibold mb-2 text-stone-700">Email</h4>
             <p className="text-zinc-600 text-sm">
               jonatas@imaginarai.com
             </p>
-          </div>
+          </a>
 
-          <div className="border border-zinc-200 rounded-xl p-6 cursor-pointer hover:shadow-md">
+          <a href='https://wa.me/5491125571622?text=Hola%20Quiero%20Agendar%20Una%20Reunión%20Para%20Buscar%20Soluciones%20Para%20Mi%20Empresa' target='_blank' rel="noopener noreferrer" className="border border-zinc-200 rounded-xl p-6 cursor-pointer hover:shadow-md hover:bg-teal-100 active:bg-teal-50 active:scale-[98%]">
             <Phone className="w-6 h-6 mb-4 text-stone-700" />
             <h4 className="font-semibold mb-2 text-stone-700">WhatsApp</h4>
             <p className="text-zinc-600 text-sm">
               +54 11 2557 1622
             </p>
-          </div>
+          </a>
 
-          <div className="border border-zinc-200 rounded-xl p-6 hover:shadow-md">
+          <div className="border border-zinc-200 rounded-xl p-6 hover:shadow-md hover:bg-teal-100">
             <MapPin className="w-6 h-6 mb-4 text-stone-700" />
             <h4 className="font-semibold mb-2 text-stone-700">Ubicación</h4>
             <p className="text-zinc-600 text-sm">
