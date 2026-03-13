@@ -12,7 +12,7 @@ export function NavBar() {
     return (
         <>
 
-            <div className={navBarStyle}>
+            <div id='navigationbar' className={navBarStyle}>
                 <Link to='/'><h1 className={logoStyle}><a href="">imaginar<span className={aiLogo}>.ai</span></a></h1></Link>
                 <div className={linksBar}>
                     <a href="#servicios" className={aLink}>Servicios</a>

@@ -88,7 +88,7 @@ export const Footer = () => {
                 <img src={InstagramIcon} alt="Instagram Jonatas Freire Giordano" className="object-fill w-6 h-6"/>
               </a>
               <a
-                href="mailto:jonatas@imaginarai.com"
+                href='https://mail.google.com/mail/?view=cm&fs=1&to=jonatas@imaginarai.com&su=Consulta%20sobre%20automatización%20con%20IA&body=Hola%20quiero%20saber%20cómo%20podrían%20ayudar%20a%20mi%20empresa'
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Email"
@@ -98,6 +98,8 @@ export const Footer = () => {
               </a>
               <a
                 href='https://wa.me/5491125571622?text=Hola%20Quiero%20Agendar%20Una%20Reunión%20Para%20Buscar%20Soluciones%20Para%20Mi%20Empresa'
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Whatsapp"
                 className="w-8 h-8 rounded-lg bg-neutral-200 flex items-center justify-center text-neutral-500 hover:bg-cyan-200 hover:text-white transition-all duration-200 active:bg-cyan-50 active:scale-[95%]"
               >
@@ -190,7 +192,7 @@ export const Footer = () => {
         {/* Bottom bar */}
         <div className="border-t border-neutral-200 pt-7 flex flex-col sm:flex-row items-center sm:items-center justify-center gap-4">
           <p className="text-xs text-neutral-400">
-            © Powered By <Link to='/' className='hover:text-cyan-400 transition-colors duration-150' >imaginar.ai</Link> 
+            © Powered By <a href='#navigationbar' className='hover:text-cyan-400 transition-colors duration-150' >imaginar.ai</a> 
           </p>
         </div>
 

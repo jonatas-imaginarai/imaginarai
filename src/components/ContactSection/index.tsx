@@ -58,7 +58,9 @@ export function ContactSection() {
               </a>
 
               <a
-                href="mailto:jonatas@imaginarai.com"
+                href='https://mail.google.com/mail/?view=cm&fs=1&to=jonatas@imaginarai.com&su=Consulta%20sobre%20automatización%20con%20IA&body=Hola%20quiero%20saber%20cómo%20podrían%20ayudar%20a%20mi%20empresa'
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-11 h-11 flex items-center justify-center rounded-xl border border-zinc-200 hover:bg-zinc-700 hover:text-white transition"
               >
                 <Mail className="w-5 h-5" />
@@ -111,7 +113,7 @@ export function ContactSection() {
         {/* BOTTOM CONTACT CARDS */}
         <div className="grid md:grid-cols-3 gap-8">
 
-          <a href='mailto:jonatas@imaginarai.com' target='_blank' rel="noopener noreferrer" className="border border-zinc-200 rounded-xl p-6 cursor-pointer hover:shadow-md hover:bg-teal-100 active:bg-teal-50 active:scale-[98%]">
+          <a href='https://mail.google.com/mail/?view=cm&fs=1&to=jonatas@imaginarai.com&su=Consulta%20sobre%20automatización%20con%20IA&body=Hola%20quiero%20saber%20cómo%20podrían%20ayudar%20a%20mi%20empresa' target='_blank' rel="noopener noreferrer" className="border border-zinc-200 rounded-xl p-6 cursor-pointer hover:shadow-md hover:bg-teal-100 active:bg-teal-50 active:scale-[98%]">
             <Mail className="w-6 h-6 mb-4 text-stone-700" />
             <h4 className="font-semibold mb-2 text-stone-700">Email</h4>
             <p className="text-zinc-600 text-sm">

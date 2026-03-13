@@ -12,7 +12,7 @@ type team = {
   role: string;
   image: string;
   socials: {
-    website: string;
+    whatsapp: string;
     linkedin: string;
     email: string,
     instagram: string
@@ -25,10 +25,10 @@ const teamData: team = [
     role: "Ingeniero de IA | Fundador",
     image: JonatasPhotoTeamGreen,
     socials: {
-      website: "#",
-      linkedin: "#",
-      email: "#",
-      instagram: "#"
+      whatsapp: 'https://wa.me/5491125571622?text=Hola%20Quiero%20Agendar%20Una%20Reunión%20Para%20Buscar%20Soluciones%20Para%20Mi%20Empresa',
+      linkedin: 'https://www.linkedin.com/in/jonatas-freire-giordano-3424bb3b2/',
+      email: 'https://mail.google.com/mail/?view=cm&fs=1&to=jonatas@imaginarai.com&su=Consulta%20sobre%20automatización%20con%20IA&body=Hola%20quiero%20saber%20cómo%20podrían%20ayudar%20a%20mi%20empresa',
+      instagram: 'https://www.instagram.com/jonatas.imaginar.ai/'
     },
   }
 ];
@@ -81,7 +81,7 @@ const Team = () => {
                     </div>
                     <div className="flex items-center justify-center gap-2">
                       <a
-                        href={value.socials.website}
+                        href={value.socials.whatsapp}
                         className="p-2 hover:bg-cyan-100 rounded-full"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -98,7 +98,7 @@ const Team = () => {
                         <img src={LinkedinIcon} alt="Linkedin Jonatas Freire Giordano" className="size-6" />
                       </a>
                       <a
-                        href={value.socials.linkedin}
+                        href={value.socials.email}
                         className="p-2 hover:bg-cyan-100 rounded-full"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -106,7 +106,7 @@ const Team = () => {
                         <img src={EmailIcon} alt="Email Jonatas Freire Giordano" className="size-6" />
                       </a>
                       <a
-                        href={value.socials.linkedin}
+                        href={value.socials.instagram}
                         className="p-2 hover:bg-cyan-100 rounded-full"
                         target="_blank"
                         rel="noopener noreferrer"
