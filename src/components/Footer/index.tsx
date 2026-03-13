@@ -25,10 +25,25 @@ export const Footer = () => {
   ];
 
   const company = [
-    "About Us",
+    {
+      id: 1,
+      name: "About Us",
+      hrefFooter: '#aboutme'
+    },
+    {
+      id: 2,
+      name: "Portfolio",
+      hrefFooter: '#portfolio'
+    },
+    {
+      id: 3,
+      name: "Blog",
+      hrefFooter: '#blog'
+    },
+/*     "About Us",
     "Nuestro Equipo",
     "Portfolio",
-    "Blog"
+    "Blog" */
   ];
 
   return (
@@ -117,12 +132,12 @@ export const Footer = () => {
             </h4>
             <ul className="space-y-3">
               {company.map((item) => (
-                <li key={item}>
+                <li key={item.id}>
                   <a
-                    href="#"
+                    href={item.hrefFooter}
                     className="text-sm text-mist-300 hover:text-cyan-400 transition-colors duration-150"
                   >
-                    {item}
+                    {item.name}
                   </a>
                 </li>
               ))}
@@ -175,7 +190,7 @@ export const Footer = () => {
         {/* Bottom bar */}
         <div className="border-t border-neutral-200 pt-7 flex flex-col sm:flex-row items-center sm:items-center justify-center gap-4">
           <p className="text-xs text-neutral-400">
-            © Powered By <Link to='indexPage' className='hover:text-cyan-400 transition-colors duration-150' >imaginar.ai</Link> 
+            © Powered By <Link to='/' className='hover:text-cyan-400 transition-colors duration-150' >imaginar.ai</Link> 
           </p>
         </div>
 

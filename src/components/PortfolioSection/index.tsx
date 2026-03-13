@@ -18,7 +18,7 @@ export function PortfolioSection() {
                     imageWork='https://images.unsplash.com/photo-1649937408746-4d2f603f91c8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1226'
                     finishedWork = {false}
                 />
-                {/* <ProductCardOne
+                <ProductCardOne
                     nameWork="Dois Mundos Energia"
                     descriptionWork1='Desarrollo de Sistema Completo de Facturación Automatizada'
                     descriptionWork2='Integración con Sistemas Internos y Bases de Datos'
@@ -27,7 +27,7 @@ export function PortfolioSection() {
                     highWork="AI Automation"
                     imageWork='https://images.unsplash.com/photo-1649937408746-4d2f603f91c8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1226'
                     finishedWork = {false}
-                /> */}
+                />
                 <ProductCardOne
                     nameWork="La Fiesta de las Flores"
                     descriptionWork1 = 'E-Commerce de Roupas'
