@@ -1,7 +1,7 @@
 import { ProductCardOne } from "../product-card-01"
 
-const stylePortfolioSection = 'w-full flex flex-col px-10 mb-36 scroll-mt-12'
-const gridPortfolio = 'grid md:grid-cols-3 lg:grid-cols-3 gap-8 justify-items-center'
+const stylePortfolioSection = 'w-full flex flex-col px-10 mb-36 scroll-mt-12 items-center justify-center'
+const gridPortfolio = 'grid md:grid-cols-3 lg:grid-cols-3 gap-8 flex items-center justify-center'
 
 export function PortfolioSection() {
     return (
