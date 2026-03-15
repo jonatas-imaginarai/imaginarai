@@ -19,16 +19,6 @@ export function NavBar() {
 
     const [open, setOpen] = useState(false)
 
-    const scrollToSection = (id: string) => {
-        const element = document.getElementById(id)
-
-        if (element) {
-            element.scrollIntoView({ behavior: "smooth" })
-        }
-
-        setOpen(false) // fecha o menu
-    }
-
     return (
         <>
 
